@@ -35,3 +35,4 @@ Associated Source Code: [v1.1.0](https://github.com/codeSTACKr/nft-landing-page/
   - Colors
 
 ## Watch the [video walkthroughs](#video-walkthrough) above for more detailed instructions.
+# https---github.com-JoWinner-nft-landing-page
