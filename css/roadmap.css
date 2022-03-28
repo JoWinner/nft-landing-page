@@ -2,7 +2,7 @@ body {
     background: url(/images/Backg.png);
     overflow-x: hidden;
     font-family: 'Source Sans Pro', sans-serif;
-    /* font-size: 19pt; */
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -104,7 +104,7 @@ img {
     border: 3px solid #5df307;
     background-color: #1d1d1b;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     color: #FFF;
     -webkit-border-radius: 50%;
@@ -123,7 +123,7 @@ img {
 
 .ag-timeline-card_meta {
     margin: 10px 0 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 28px;
     color: #5df307;
@@ -213,7 +213,7 @@ img {
 .ag-timeline-card_title {
     display: none;
     margin: 10px 0 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 28px;
     color: #5df307;

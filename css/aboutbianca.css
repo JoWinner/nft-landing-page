@@ -616,3 +616,8 @@ h1 {
     /* margin: 0 auto; */
     max-width: 100%;
 }
+
+.pr-5 {
+    padding-right: 3rem!important;
+    text-align: center;
+}
