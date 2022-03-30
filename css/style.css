@@ -96,19 +96,24 @@ header .container {
 
 /* card*/
 
+.row {
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
 .card {
     background: #071824;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     cursor: pointer;
-    height: 300px;
+    height: 370px;
     margin: 0px;
-    /* padding: 0 20px; */
+    padding: 0 20px;
     position: relative;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.025);
     text-align: center;
     transition: height 1000ms;
-    width: 310px;
+    width: 300px;
     color: #f2af8e;
 }
 
@@ -120,25 +125,32 @@ header .container {
 }
 
 .card.expanded {
-    height: 480px;
+    height: 500px;
+}
+
+.card.expanded.row {
+    margin-left: -50px;
+    margin-right: -50px;
 }
 
 .label {
-    /* height: 200px; */
-    margin-top: 5px;
     transform: translateY(10px);
+    transform: translateX(10px);
     transition: transform 1000ms;
 }
 
 .card.expanded .label {
     transform: translateY(0);
-    /* margin-top: 0px; */
-    /* height: 500px; */
+    transform: translateX(0);
+    width: 300px;
+    /*Added*/
+    height: 370px;
+    position: relative;
+    right: 8%;
 }
 
 .text1 {
     clip-path: polygon(0% 100%, 0 0%, 100% -5%, 100% -90%, 100% 100%);
-    -webkit-clip-path: polygon(0% 100%, 0 -90%, 50% -5%, 100% -90%, 100% 100%);
     transition: clip-path 1000ms;
 }
 
@@ -155,6 +167,7 @@ header .container {
 
 .card.expanded .text-content {
     transform: translateY(-15px);
+    transform: translateX(-15px);
 }
 
 .chevron {
@@ -171,9 +184,11 @@ header .container {
 }
 
 .body-text {
-    margin: 20px 0 12px;
-    padding: 0 20px;
+    margin: 0px 0 0px;
+    padding: -1px 20px;
     font-size: 19px;
+    position: relative;
+    right: -8%
 }
 
 
